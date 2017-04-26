@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Text to barcode",
+  "description": "Text to barcode",
+  "version": "2.0",
+
+  "browser_action": {
+    "default_icon": "barcode.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+	"cookies",
+	"http://developer.chrome.com/extensions/popup.html"
+  ]
+}

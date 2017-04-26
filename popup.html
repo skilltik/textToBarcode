@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {        
+        font-size: 100%;		
+		width: 800px;
+		max-height: 190px;
+      }      
+	  .barcode{
+		width: 100%;
+	  }
+	  
+	  #barcodeList{
+	    height: 182px;    
+		overflow-x: overlay;
+	  }
+    </style>
+	<script src="jquery-3.2.1.js"></script>
+	<script src="JsBarcode.all.min.js"></script>
+	<script src="popup.js"></script>
+  </head>
+  <body>
+	<input id="input"/>
+	<span>ZT Mask</span> <input type="checkbox" id="mask" checked/>	
+	<button id="guardar">Guardar</button>
+	<div id="barcodeB">		
+	    <div id="barcodeContainer">
+			<svg id="barcode"></svg>
+		</div>
+		<div id="barcodeList">
+		</div>    
+	</div>    
+  </body>
+</html>
+
